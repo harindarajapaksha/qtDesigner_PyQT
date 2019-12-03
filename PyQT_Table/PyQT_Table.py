@@ -2,6 +2,7 @@ import sys
 import pandas as pd
 from PyQt5.QtWidgets import QApplication, QDialog, QFileDialog, QTableWidgetItem
 from PyQt5.uic import loadUi
+from PyQt5 import QtGui
 
 
 class Window(QDialog):
@@ -20,6 +21,12 @@ class Window(QDialog):
             self.table.insertRow(rowNumber)
             for colNumber, cellData in enumerate(rowData):
                 self.table.setItem(rowNumber, colNumber, QTableWidgetItem(str(cellData)))
+                if cellData <1:
+                    self.table.item(rowNumber, colNumber).setBackground(QtGui.QColor(255,10,150))
+                elif cellData > 1 and cellData < 100:
+                    self.table.item(rowNumber, colNumber).setBackground(QtGui.QColor(0, 10, 255))
+                else:
+                    self.table.item(rowNumber, colNumber).setBackground(QtGui.QColor(5, 255, 150))
 
     def cliecked_exit(self):
         sys.exit()
