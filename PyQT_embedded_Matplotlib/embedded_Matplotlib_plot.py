@@ -1,4 +1,5 @@
 import sys
+import venn
 from matplotlib import pylab as plt
 from matplotlib.backends.backend_qt5agg import FigureCanvas
 
@@ -27,11 +28,15 @@ class Window(QDialog):
 
 
     def myplot2(self):
-        a = [1,2,3,4,5,6,7,8,9,10]
-        b = [12,23,34,45,56,67,78,89,90,10]
+        a = set([1,2,3,4,5,6,7,8,9])
+        b = set([3,4,3,4,5,6,7,8,9])
+        c = set([12,4,5,4,34,6,7,67,8,5])
+        d = set([4,5,6,7,8,91,2,3,23,23,4,45,3])
+        e = set([1,2,3,4,6,7,8,9,0])
 
-        fig, ax2 = plt.subplots()
-        ax2.boxplot([a,b])
+        lables = venn.get_labels([a,b,c, d, e], fill=['number'])
+        fig, ax2 = venn.venn5(lables, names=['list 1', 'list 2', 'list 3', 'list 4', 'list 5'])
+
 
         self.mlp2 = FigureCanvas(fig)
         lay = QHBoxLayout(self.widget_2)

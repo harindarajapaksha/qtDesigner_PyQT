@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="747775e6-57f5-48c5-9c4b-fce79e0b7f75" name="Default Changelist" comment="initial imports">
-      <change afterPath="$PROJECT_DIR$/PyQT_embedded_plot/myGUI.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyQT_embedded_plot/plotGUI.ui" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyQT_embedded_plot/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyQT_embedded_plot/test.ui" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyQT_embedded_plot/embedded_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQT_embedded_plot/embedded_plot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyQT_embedded_Matplotlib/embedded_Matplotlib_plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyQT_embedded_Matplotlib/embedded_Matplotlib_plot.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +27,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ToolWindowStructure.ShowToolbar" value="false" />
@@ -43,19 +43,7 @@
       <recent name="$PROJECT_DIR$/SimpleGUI" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.embedded_plot">
+  <component name="RunManager" selected="Python.embedded_Matplotlib_plot">
     <configuration name="PyQT_Table" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyQT_QTdesigner" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -77,7 +65,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="QT_ComboBox" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="embedded_Matplotlib_plot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyQT_QTdesigner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,11 +73,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QT_ComboBox" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQT_embedded_Matplotlib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QT_ComboBox/QT_ComboBox.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQT_embedded_Matplotlib/embedded_Matplotlib_plot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyQT_QTdesigner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -148,11 +136,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQT_Table" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQT_embedded_Matplotlib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQT_Table/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQT_embedded_Matplotlib/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,13 +151,25 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.embedded_Matplotlib_plot" />
+        <item itemvalue="Python.test (2)" />
         <item itemvalue="Python.embedded_plot" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.PyQT_Table" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.QT_ComboBox" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -197,7 +197,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -207,5 +209,23 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial imports" />
     <option name="LAST_COMMIT_MESSAGE" value="initial imports" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1897" height="274" key="GridCell.Tab.0.bottom" timestamp="1575372961578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575372961578" />
+    <state width="1897" height="274" key="GridCell.Tab.0.center" timestamp="1575372961578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575372961578" />
+    <state width="1897" height="274" key="GridCell.Tab.0.left" timestamp="1575372961578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575372961578" />
+    <state width="1897" height="274" key="GridCell.Tab.0.right" timestamp="1575372961578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1897" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575372961578" />
   </component>
 </project>
