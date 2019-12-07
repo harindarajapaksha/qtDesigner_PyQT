@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="747775e6-57f5-48c5-9c4b-fce79e0b7f75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Seborn_PyQT/GUI.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seborn_PyQT/Sample_file.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seborn_PyQT/snsPyQT.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +45,7 @@
       <recent name="$PROJECT_DIR$/SimpleGUI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.embedded_Matplotlib_plot">
+  <component name="RunManager" selected="Python.snsPyQT">
     <configuration name="PyQT_Table" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyQT_QTdesigner" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -106,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="snsPyQT" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyQT_QTdesigner" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,11 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyQT_embedded_plot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Seborn_PyQT" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyQT_embedded_plot/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Seborn_PyQT/snsPyQT.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.snsPyQT" />
         <item itemvalue="Python.embedded_Matplotlib_plot" />
         <item itemvalue="Python.PyQT_Table" />
         <item itemvalue="Python.test (2)" />
         <item itemvalue="Python.embedded_plot" />
-        <item itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575382634332</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update maplotlib embedding venn diagram">
+      <created>1575698594373</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575698594373</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -223,28 +233,29 @@
     <MESSAGE value="initial imports" />
     <MESSAGE value="Second plot was added carrying a Venn diagram" />
     <MESSAGE value="Updated table cell background color" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated table cell background color" />
+    <MESSAGE value="update maplotlib embedding venn diagram" />
+    <option name="LAST_COMMIT_MESSAGE" value="update maplotlib embedding venn diagram" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="607" y="116" width="695" height="803" key="CommitChangelistDialog2" timestamp="1575382634281">
+    <state x="607" y="116" width="695" height="803" key="CommitChangelistDialog2" timestamp="1575698594298">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="607" y="116" width="695" height="803" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575382634281" />
-    <state width="1897" height="274" key="GridCell.Tab.0.bottom" timestamp="1575698537058">
+    <state x="607" y="116" width="695" height="803" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575698594298" />
+    <state width="1897" height="274" key="GridCell.Tab.0.bottom" timestamp="1575703552288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575698537058" />
-    <state width="1897" height="274" key="GridCell.Tab.0.center" timestamp="1575698537058">
+    <state width="1897" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575703552288" />
+    <state width="1897" height="274" key="GridCell.Tab.0.center" timestamp="1575703552288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575698537058" />
-    <state width="1897" height="274" key="GridCell.Tab.0.left" timestamp="1575698537058">
+    <state width="1897" height="274" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575703552288" />
+    <state width="1897" height="274" key="GridCell.Tab.0.left" timestamp="1575703552288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575698537058" />
-    <state width="1897" height="274" key="GridCell.Tab.0.right" timestamp="1575698537058">
+    <state width="1897" height="274" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575703552288" />
+    <state width="1897" height="274" key="GridCell.Tab.0.right" timestamp="1575703552288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1897" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575698537058" />
+    <state width="1897" height="274" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1575703552288" />
   </component>
 </project>
