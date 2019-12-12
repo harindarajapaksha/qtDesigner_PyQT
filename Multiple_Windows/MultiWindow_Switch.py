@@ -30,8 +30,9 @@ class Manager():
         self.first.btn_1.clicked.connect(self.second.show)
         self.second.btn_2.clicked.connect(self.Third.show)
         self.Third.btn_back.clicked.connect(self.second.show)
-        self.Third.btn_exit.clicked.connect(self.first.show)
-        self.Third.btn_exit.clicked.connect(self.Third.hide)
+        self.Third.btn_exit.clicked.connect(self.first.close)
+        self.Third.btn_exit.clicked.connect(self.Third.close)
+        self.Third.btn_exit.clicked.connect(self.second.close)
 
         self.first.show()
 
