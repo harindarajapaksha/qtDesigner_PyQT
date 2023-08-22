@@ -13,6 +13,7 @@ class Ui_Dialog(object):
         self.txt_url = QtWidgets.QLineEdit(Dialog)
         self.txt_url.setGeometry(QtCore.QRect(20, 40, 381, 28))
         self.txt_url.setObjectName("txt_url")
+        self.txt_url.setText("Type your URL here ...")
 
         self.retranslateUi(Dialog)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
